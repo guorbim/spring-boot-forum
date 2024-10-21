@@ -1,0 +1,11 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/java-postgres
+{
+	"name": "springboot-mysql",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "springboot-forum",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	// "forwardPorts": [3306],
+	"postCreateCommand": "java -version"
+	// "customizations": {},
+}
