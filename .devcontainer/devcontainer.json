@@ -5,7 +5,7 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-	// "forwardPorts": [3306],
+	"forwardPorts": [8080],
 	"postCreateCommand": "java -version"
 	// "customizations": {},
 }
