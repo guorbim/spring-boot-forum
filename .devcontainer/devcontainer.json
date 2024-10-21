@@ -3,7 +3,7 @@
 {
 	"name": "springboot-mysql",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "springboot-forum",
+	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	// "forwardPorts": [3306],
 	"postCreateCommand": "java -version"
